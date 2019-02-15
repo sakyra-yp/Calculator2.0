@@ -6,10 +6,9 @@ body {
   background-color: #ffcfa2;
 }
 
-p {
+table,tr,td {
     margin: 0px;
     padding: 0px;
-
 }
 #keyboard {
     width: 340px;
@@ -20,7 +19,7 @@ p {
     border-radius: 0 0 20px 20px;
 }
 
-.display {
+#display {
   width: 380px;
   margin: auto;
   text-align: right;
@@ -29,16 +28,6 @@ p {
   color: #192734;
   background-color: #f9fafc;
   border-radius: 20px 20px 0 0;
-  position: relative;
-}
-
-#way{
-  background-color: #f9fafc;
-  color: #1d75e6;
-  font-weight: bold;
-  position: absolute;
-  font-size: 15px;
-  top:20px;
 }
 
 #keyboard button {
@@ -101,6 +90,5 @@ button:focus {outline:0;}
 }
 
 #keyboard #zero #null {
-    width: 170px;
     border-radius: 0 0 0 7px;
 }

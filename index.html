@@ -8,15 +8,39 @@
 </head>
 
 <body>
-        <div id='display'>0</div>
-          <div id="keyboard">
-              <p><button class="operators" value="c">С</button><button class="operators" value="m">+/-</button><button class="operators" value="%">%</button><button value="/" class="blue">÷</button></p>
-              <p><button value="1" class="numbers">1</button><button value="2" class="numbers">2</button><button value="3" class="numbers">3</button><button value="*" class="blue">x</button></p>
-              <p><button value="4" class="numbers">4</button><button value="5" class="numbers">5</button><button value="6" class="numbers">6</button><button value="-" class="blue">-</button> </p>
-              <p> <button value="7" class="numbers">7</button><button value="8" class="numbers">8</button><button value="9" class="numbers">9</button><button value="+" class="blue">+</button> </p>
-              <p id="zero"><button value="0" class="numbers" id="null">0</button><button value=".">,</button><button value="=" class="blue">=</button></p>
-          </div>
-
+        <div id="display">0</div>
+          <table id="keyboard" cellspacing="0">
+            <tr>
+              <td><button class="operators" value="c">С</button></td>
+              <td><button class="operators" value="m">+/-</button></td>
+              <td><button class="operators" value="%">%</button></td>
+              <td><button value="/" class="blue">÷</button></td>
+            </tr>
+            <tr>
+              <td><button value="1" class="numbers">1</button></td>
+              <td><button value="2" class="numbers">2</button></td>
+              <td><button value="3" class="numbers">3</button></td>
+              <td><button value="*" class="blue">x</button></td>
+            </tr>
+            <tr>
+              <td><button value="4" class="numbers">4</button></td>
+              <td><button value="5" class="numbers">5</button></td>
+              <td><button value="6" class="numbers">6</button></td>
+              <td><button value="-" class="blue">-</button></td>
+            </tr>
+            <tr>
+              <td><button value="7" class="numbers">7</button></td>
+              <td><button value="8" class="numbers">8</button></td>
+              <td><button value="9" class="numbers">9</button></td>
+              <td><button value="+" class="blue">+</button></td>
+            </tr>
+            <tr id="zero">
+              <td><button value="0" class="numbers" id="null">0</button></td>
+              <td></td>
+              <td><button value=".">,</button></td>
+              <td><button value="=" class="blue">=</button></td>
+            </tr>
+          </table>
     <script src="script.js"></script>
 </body>
 </html>

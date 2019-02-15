@@ -1,7 +1,6 @@
 
 (function () {
     const display = document.getElementById('display');
-    const subdisplay = document.getElementById('way');
 
     const antiEval = (str) => {
 
@@ -110,6 +109,5 @@
                 display.textContent = str
             };
         };
-        subdisplay.innerHTML = str;
     });
 })();
