@@ -70,19 +70,19 @@ button:focus {outline:0;}
 #keyboard [VALUE="="] {
   border-radius: 0 0 7px 0;
   background-color: #192734;
+  border-top: 0;
 }
 
 #keyboard [VALUE="="]:hover {
   background-color: #121D26;
 }
 
-#keyboard #zero #null {
-    text-align: left;
-    padding-left: 34px;
-}
-
 #keyboard [VALUE="c"]{
   border-radius: 7px 0 0 0;
+}
+
+#keyboard [VALUE="."]{
+  border-top: 0;
 }
 
 #keyboard [VALUE="/"]{
@@ -90,5 +90,13 @@ button:focus {outline:0;}
 }
 
 #keyboard #zero #null {
+    border:0;
     border-radius: 0 0 0 7px;
+    text-align: left;
+    padding-left: 34px;
+}
+.null{
+  border: 1px solid #eaebee;
+  border-top:0;
+  border-radius: 0 0 0 7px;
 }
