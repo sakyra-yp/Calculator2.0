@@ -1,6 +1,7 @@
 
 (function () {
     const display = document.getElementById('display');
+    const subdisplay = document.getElementById('way');
 
     const antiEval = (str) => {
 
@@ -56,7 +57,6 @@
     const keyboard = document.getElementById('keyboard');
 
     keyboard.addEventListener('click', (e) => {
-
         let target = e.target;
 
         if (target.value.match(/[0123456789\.]/)) {
@@ -110,5 +110,6 @@
                 display.textContent = str
             };
         };
+        subdisplay.innerHTML = str;
     });
 })();
