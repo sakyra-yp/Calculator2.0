@@ -42,9 +42,17 @@ p {
     font-weight: bold;
 }
 
+#keyboard button:hover {
+  color: #1B6CD4;
+}
+
 #keyboard .operators {
   background-color: #f9fafc;
   font-weight: normal;
+}
+
+#keyboard .operators:hover {
+  background-color: #E8E9EB;
 }
 
 button:focus {outline:0;}
@@ -55,9 +63,18 @@ button:focus {outline:0;}
     font-weight: normal;
 }
 
-#keyboard [VALUE="="]{
+#keyboard .blue:hover {
+  background-color: #1B6CD4;
+  color: #fff;
+}
+
+#keyboard [VALUE="="] {
   border-radius: 0 0 7px 0;
   background-color: #192734;
+}
+
+#keyboard [VALUE="="]:hover {
+  background-color: #121D26;
 }
 
 #keyboard #zero #null {
