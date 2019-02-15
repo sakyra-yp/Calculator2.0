@@ -1,0 +1,79 @@
+* {
+  font-size: 1em;
+  font-family: arial;
+}
+body {
+  background-color: #ffcfa2;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+
+}
+#keyboard {
+    width: 340px;
+    display: block;
+    margin: auto;
+    padding: 30px 35px;
+    background-color: #fff;
+    border-radius: 0 0 20px 20px;
+}
+
+#display {
+  width: 380px;
+  margin: auto;
+  text-align: right;
+  padding: 50px 15px 30px 15px;
+  font-size: 60px;
+  color: #192734;
+  background-color: #f9fafc;
+  border-radius: 20px 20px 0 0;
+}
+
+#keyboard button {
+    cursor: pointer;
+    width: 85px;
+    height: 85px;
+    font-size: 23px;
+    color: #192734;
+    background-color: #fff;
+    border: 1px solid #eaebee;
+    font-weight: bold;
+}
+
+#keyboard .operators {
+  background-color: #f9fafc;
+  font-weight: normal;
+}
+
+button:focus {outline:0;}
+
+#keyboard .blue {
+    color: #e4eff9;
+    background-color: #1d75e6;
+    font-weight: normal;
+}
+
+#keyboard [VALUE="="]{
+  border-radius: 0 0 7px 0;
+  background-color: #192734;
+}
+
+#keyboard #zero #null {
+    text-align: left;
+    padding-left: 34px;
+}
+
+#keyboard [VALUE="c"]{
+  border-radius: 7px 0 0 0;
+}
+
+#keyboard [VALUE="/"]{
+  border-radius: 0 7px 0 0;
+}
+
+#keyboard #zero #null {
+    width: 170px;
+    border-radius: 0 0 0 7px;
+}
